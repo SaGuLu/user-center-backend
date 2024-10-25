@@ -1,0 +1,10 @@
+spring:
+  # DataSource Config
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Jason_@01
+    url: jdbc:mysql://192.168.217.132:3306/user_center
+  # session 有效时间 1 天
+  session:
+    timeout: 86400
